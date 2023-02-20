@@ -13,9 +13,6 @@ body{
     margin-top: 25px;
   }
 
-input{
-    box-sizing:border-box;
-
 
 input, textarea {
     margin-bottom: 15px;
