@@ -110,6 +110,11 @@
                     {
                         ret = (ret*4.1868);
                     }
+                    
+                    if (isNaN(ret)) {
+                        alert('Please Fill Out Form') 
+                    return
+                    }
 
                     document.getElementById("reason").innerHTML =("You need to consume "+Math.ceil(ret)+' '+unit+" per day to maintain your weight.");
                 }
