@@ -20,8 +20,8 @@
 
       <h1 class="name">CALORIC CALCUATOR</h1>
 
-      <div class="amt_calories"></div>
-
+      <div id="reason">Calculate your necessary daily caloric intake.</div>
+        
       <form class="calculator-form">
 
         <select id="gender" name="gender" required>
@@ -74,8 +74,8 @@
 
 </div>
 
-<div class="amt_calories"></div>
-
+<div hidden class="amt_calories"></div>    
+    
   <script>
     function calculateCalorie(obj)
 
@@ -111,7 +111,7 @@
                         ret = (ret*4.1868);
                     }
 
-                    document.querySelector(".amt_calories").innerHTML = 'You need to consume '+Math.ceil(ret)+' '+unit+' per day to maintain your weight.';
+                    document.getElementById("reason").innerHTML =("You need to consume "+Math.ceil(ret)+' '+unit+" per day to maintain your weight.");
                 }
 
                 function Mifflin(gender, age, bodyFat, height, weight)
