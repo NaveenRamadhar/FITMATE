@@ -60,6 +60,10 @@ input, textarea {
   
 }
 
+.formstart{
+  margin-top: 20px;
+}
+
 
 .calculator {
   text-align: center;
