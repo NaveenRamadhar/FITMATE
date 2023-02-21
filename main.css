@@ -1,17 +1,17 @@
 body{
-    background-image: url("Background.jpg");
+  background-image: url("Background.jpg");
 }
 
 .name {
-    font-size: 50px;
-    color: darkgrey;
-    text-align: center;
-    font-family:"Lucida Console", "SF UI Text", "Helvetica Neue", "Segoe UI", "Oxygen",
-    "Ubuntu", "Cantarell", "Open Sans", sans-serif;
-    margin: auto;
-    justify-content: center;
-    margin-top: 25px;
-  }
+  font-size: 50px;
+  color: darkgrey;
+  text-align: center;
+  font-family:"Lucida Console", "SF UI Text", "Helvetica Neue", "Segoe UI", "Oxygen",
+  "Ubuntu", "Cantarell", "Open Sans", sans-serif;
+  margin: auto;
+  justify-content: center;
+  margin-top: 25px;
+}
 
 #reason{
   font-size: 20px;
@@ -24,113 +24,123 @@ body{
   margin-top: 25px;
 }
 
+.metrics{
+  display: inline;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button-us, .button-metric{
+  margin-top: 20px;
+  border: 2.5px solid darkgrey;
+  color: darkgrey;
+  background-color: transparent;
+  justify-content: center;
+  font-family:"Lucida Console", "SF UI Text", "Helvetica Neue", "Segoe UI", "Oxygen",
+  "Ubuntu", "Cantarell", "Open Sans", sans-serif;
+}
+
+
 input, textarea {
-    margin-bottom: 15px;
-    padding: 20px;
-    border: none;
-    box-shadow: none;
-    transition: border-color 0.5s ease;
-    background-color: black;
-    opacity: 0.75;
-    color: darkgrey;
-    font-size: 16px;
-    font-family:"Lucida Console", "SF UI Text", "Helvetica Neue", "Segoe UI", "Oxygen",
-    "Ubuntu", "Cantarell", "Open Sans", sans-serif;
-    justify-content: center;
-    margin-left:auto;
-    margin-right:auto;
-    width: 100%;
-    
-    
-    
-  }
+  margin-bottom: 15px;
+  padding: 20px;
+  border: none;
+  box-shadow: none;
+  transition: border-color 0.5s ease;
+  background-color: black;
+  opacity: 0.75;
+  color: darkgrey;
+  font-size: 16px;
+  font-family:"Lucida Console", "SF UI Text", "Helvetica Neue", "Segoe UI", "Oxygen",
+  "Ubuntu", "Cantarell", "Open Sans", sans-serif;
+  justify-content: center;
+  margin-left:auto;
+  margin-right:auto;
+  width: 100%;
+  
+}
+
 
 .calculator {
-    text-align: center;
-    margin: auto;
-    justify-content: center;
-    
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  
 }
-  
+
 .calculator-form {
-    
-    
-    margin: auto;
-    margin-top: 50px;
-    justify-content: center;
-    
-  }
-
-  .container{
-    margin: auto;
-    justify-content:center;
-  }
-
-  select{
-    border: none;
-    box-shadow: none;
-    margin-bottom: 15px;
-    padding: 20px;
-    justify-content: center;
-    width: 105.67%;
-    background-color: black;
-    opacity: 0.75;
-    color: darkgrey;
-    font-size: 16px;
-    font-family:"Lucida Console", "SF UI Text", "Helvetica Neue", "Segoe UI", "Oxygen",
-    "Ubuntu", "Cantarell", "Open Sans", sans-serif;
-    width: 100%;
-  }
   
+  margin: auto;
+  justify-content: center;
+  
+}
+
+select{
+  border: none;
+  box-shadow: none;
+  margin-bottom: 15px;
+  padding: 20px;
+  justify-content: center;
+  width: 105.67%;
+  background-color: black;
+  opacity: 0.75;
+  color: darkgrey;
+  font-size: 16px;
+  font-family:"Lucida Console", "SF UI Text", "Helvetica Neue", "Segoe UI", "Oxygen",
+  "Ubuntu", "Cantarell", "Open Sans", sans-serif;
+    width: 100%;
+}
+
 button {
-    margin-top: 8px;
+  margin-top: 8px;
 }
 
 button:hover{
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .button{
-    display: inline-block;
-    font-family: 'Open Sans', Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    text-transform: uppercase;
-    line-height: normal;
-    padding: 15px 30px;
-    text-align: center;
-    text-decoration: none;
-    justify-content: center;
+  display: inline-block;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: normal;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
 }
 
 .button:hover {
-    opacity: 0.75;
-    color: white;
-    border: 2.5px solid white;
-    
-  }
+  opacity: 0.75;
+  color: white;
+  border: 2.5px solid white;
+  
+}
 
 .button-primary {
-    border: 2.5px solid darkgrey;
-    color: darkgrey;
-    background-color: transparent;
-    justify-content: center;
-    font-family:"Lucida Console", "SF UI Text", "Helvetica Neue", "Segoe UI", "Oxygen",
-    "Ubuntu", "Cantarell", "Open Sans", sans-serif;
-  }
+  border: 2.5px solid darkgrey;
+  color: darkgrey;
+  background-color: transparent;
+  justify-content: center;
+  font-family:"Lucida Console", "SF UI Text", "Helvetica Neue", "Segoe UI", "Oxygen",
+  "Ubuntu", "Cantarell", "Open Sans", sans-serif;
+}
 
 .amt_calories{
-    margin-top: 25px;
-    font-size: 20px;
-    color: darkgrey;
-    text-align: center;
-    font-family:"Lucida Console", "SF UI Text", "Helvetica Neue", "Segoe UI", "Oxygen",
-    "Ubuntu", "Cantarell", "Open Sans", sans-serif;
-    margin: auto;
-    justify-content: center;
-    
+  margin-top: 25px;
+  font-size: 20px;
+  color: darkgrey;
+  text-align: center;
+  font-family:"Lucida Console", "SF UI Text", "Helvetica Neue", "Segoe UI", "Oxygen",
+  "Ubuntu", "Cantarell", "Open Sans", sans-serif;
+  margin: auto;
+  justify-content: center;
+  
 }
 
 input, select{
   box-sizing: border-box;
 }
+
