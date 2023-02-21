@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv=“X-UA-Compatible” content=“ie=edge”><title>Caloric Calculator</title>
     
-<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -16,12 +16,19 @@
 
 <div class="calculator" id="calculator">
 
-    <div class="container">
+  
 
       <h1 class="name">CALORIC CALCUATOR</h1>
 
       <div id="reason">Calculate your necessary daily caloric intake.</div>
-        
+
+      <div class="metrics">
+
+      <button type="button" class="button button-metric" value="create page" onclick="location.href='index.html'">Metric Units</button>
+      <button type="button" class="button button-us" value="create page" onclick="location.href='index2.html'">US Units</button>
+
+      </div>
+
       <form class="calculator-form">
 
         <select id="gender" name="gender" required>
@@ -30,7 +37,6 @@
             <option id="gender_female" name="gender" required value="1">Female</option>
           </select>
 
-          
 
         <input class="form-control text-end" name="age" required type="number" min="1" max="100" placeholder="Enter your age"/>
 
@@ -59,12 +65,12 @@
     </select>
 
        <select class="form-select" name="unit" required>
-         <option value="">Select results unit: ( recommended: Calories )</option>
+         <option value="">Select results unit: ( recommended: calories )</option>
          <option value="calories">Calories</option>
         <option value="kilojoules">Kilojoules</option>
      </select>
 
-        <button class="button button-primary" onclick="calculateCalorie(this)" type="button">
+        <button type="button" class="button button-primary" onclick="calculateCalorie(this)">
           CALCULATE
         </button>
 
@@ -74,8 +80,8 @@
 
 </div>
 
-<div hidden class="amt_calories"></div>    
-    
+<div  hidden class="amt_calories"></div>
+
   <script>
     function calculateCalorie(obj)
 
@@ -104,18 +110,18 @@
                         BMR = Katch(bodyFat, weight);
                     }
                     
+                    
                     let ret = parseFloat(BMR)*parseFloat(activity);
 
                     if(unit == 'kilojoules')
                     {
                         ret = (ret*4.1868);
                     }
-                    
+
                     if (isNaN(ret)) {
                         alert('Please Fill Out Form') 
                     return
                     }
-
                     document.getElementById("reason").innerHTML =("You need to consume "+Math.ceil(ret)+' '+unit+" per day to maintain your weight.");
                 }
 
@@ -142,12 +148,17 @@
 
                 function Katch(bodyFat, weight)
                 {
+
                   let BMR = 370 + 21.6*(1 - (bodyFat/100))*weight;
 
-return BMR;
-}
+                  return BMR;
+                }
+
+
+
   </script> 
 
 
 </body>
 </html>
+
