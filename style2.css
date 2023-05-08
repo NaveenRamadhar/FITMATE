@@ -1,0 +1,175 @@
+*{
+  outline: none;
+}
+
+body{ 
+  background-color: black;
+   
+  }
+  
+  .name {
+    font-size: 90px;
+  color: red;
+  text-align: center;
+  font-family:"Lucida Console", "SF UI Text", "Helvetica Neue", "Segoe UI", "Oxygen",
+  "Ubuntu", "Cantarell", "Open Sans", sans-serif;
+  margin: auto;
+  justify-content: center;
+  margin: auto;
+  }
+  
+  #reason{
+    font-size: 20px;
+  color: red;
+  text-align: center;
+  font-family:"Lucida Console", "SF UI Text", "Helvetica Neue", "Segoe UI", "Oxygen",
+  "Ubuntu", "Cantarell", "Open Sans", sans-serif;
+  margin: auto;
+  justify-content: center;
+  }
+  
+  .metrics{
+    display: inline;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .button-us, .button-metric{
+    margin-top: 20px;
+    border: 2.5px solid red;
+    color: red;
+    background-color: transparent;
+    justify-content: center;
+    font-family:"Lucida Console", "SF UI Text", "Helvetica Neue", "Segoe UI", "Oxygen",
+    "Ubuntu", "Cantarell", "Open Sans", sans-serif;
+  }
+  
+  
+  input, textarea {
+    margin-bottom: 15px;
+    padding: 20px;
+    border: none;
+    box-shadow: none;
+    transition: border-color 0.5s ease;
+    background-color: red;
+    opacity: 0.75;
+    color: black;
+    font-size: 16px;
+    font-family:"Lucida Console", "SF UI Text", "Helvetica Neue", "Segoe UI", "Oxygen",
+    "Ubuntu", "Cantarell", "Open Sans", sans-serif;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%;
+    border-radius: 50px;
+    
+  }
+
+  
+  
+  .formstart{
+  margin-top: 20px;
+}
+
+.heightform{
+  display: block;
+}
+  
+  .calculator {
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    
+  }
+  
+  .calculator-form {
+
+    margin: auto;
+    justify-content: center;
+}
+  
+  select{
+    border: none;
+    box-shadow: none;
+    margin-bottom: 15px;
+    padding: 20px;
+    justify-content: center;
+    width: 105.67%;
+    background-color: red;
+    opacity: 0.75;
+    color: black;
+    font-size: 16px;
+    font-family:"Lucida Console", "SF UI Text", "Helvetica Neue", "Segoe UI", "Oxygen",
+    "Ubuntu", "Cantarell", "Open Sans", sans-serif;
+    width: 50%;
+    border-radius: 50px;
+  }
+  
+  button {
+    margin-top: 8px;
+  }
+  
+  button:hover{
+    cursor: pointer;
+  }
+  
+  .button{
+    display: inline-block;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: normal;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+  }
+  
+  .button:hover {
+    opacity: 0.75;
+    color: red;
+    border: 2.5px solid red;
+    
+  }
+  
+  .button-primary {
+  display: flex;
+  margin: auto;
+  border: 2.5px solid red;
+  color: red;
+  background-color: transparent;
+  justify-content: center;
+  font-family:"Lucida Console", "SF UI Text", "Helvetica Neue", "Segoe UI", "Oxygen",
+  "Ubuntu", "Cantarell", "Open Sans", sans-serif;
+  }
+  
+  .amt_calories{
+    margin-top: 25px;
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    font-family:"Lucida Console", "SF UI Text", "Helvetica Neue", "Segoe UI", "Oxygen",
+    "Ubuntu", "Cantarell", "Open Sans", sans-serif;
+    margin: auto;
+    justify-content: center;
+    
+  }
+  
+  input, select{
+    box-sizing: border-box;
+  }
+  
+
+
+@media only screen and (max-width: 600px) {
+
+  input, textarea, select {
+    width: 100%;
+  }
+}  
+
+::placeholder{
+  color: black;
+}
+
